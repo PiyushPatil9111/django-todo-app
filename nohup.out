@@ -1,0 +1,51 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+December 07, 2022 - 19:13:34
+Django version 4.1.4, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+December 07, 2022 - 19:13:57
+Django version 4.1.4, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[07/Dec/2022 19:14:32] "GET / HTTP/1.1" 302 0
+[07/Dec/2022 19:14:32] "GET /todos HTTP/1.1" 301 0
+[07/Dec/2022 19:14:32] "GET /todos/ HTTP/1.1" 200 2925
+[07/Dec/2022 19:14:32] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[07/Dec/2022 19:14:33] "GET /favicon.ico HTTP/1.1" 404 2568
+[07/Dec/2022 19:14:34] "GET / HTTP/1.1" 302 0
+[07/Dec/2022 19:14:34] "GET /todos HTTP/1.1" 301 0
+[07/Dec/2022 19:14:35] "GET /todos/ HTTP/1.1" 200 2925
+[07/Dec/2022 19:14:36] "POST /todos/22/update HTTP/1.1" 302 0
+[07/Dec/2022 19:14:36] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:36] "GET /static/css/style.css HTTP/1.1" 200 225
+[07/Dec/2022 19:14:43] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:43] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:44] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:44] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:44] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:14:44] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:17:52] "GET / HTTP/1.0" 302 0
+[07/Dec/2022 19:35:51] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:35:51] "GET /static/css/style.css HTTP/1.1" 304 0
+[07/Dec/2022 19:35:54] "GET /todos/ HTTP/1.1" 200 2962
+[07/Dec/2022 19:35:55] "GET /todos/ HTTP/1.1" 200 2962
