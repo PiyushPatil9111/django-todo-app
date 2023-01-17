@@ -1,6 +1,9 @@
 version : "3.3"
 services:
   webapp:
-      build : .
+      build :
+        context: ./
+        dockerfile: Dockerfile
+      container_name: "mycont"  
       ports :
          - "80:80"
